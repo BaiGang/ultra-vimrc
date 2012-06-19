@@ -12,7 +12,7 @@ Or what's newly added? Actually the additions are minor. Here are new pig and py
 Installation
 ------------
 
- * git clone https://github.com/BaiGang/ultra-vimrc.git ~/.vimruntime
+ * git clone https://github.com/BaiGang/ultra-vimrc.git ~/.vim_runtime
  * cat install.sh, you will know how to do it.
 
 .. _The-ultimate-vim-configuration: http://amix.dk/blog/post/19486#The-ultimate-vim-configuration-vimrc
