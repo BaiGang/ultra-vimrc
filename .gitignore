@@ -352,3 +352,11 @@ yankring-window-example	yankring.txt	/*yankring-window-example*
 yankring.txt	yankring.txt	/*yankring.txt*
 ys	surround.txt	/*ys*
 yss	surround.txt	/*yss*
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/baigang/workspace/storm/src/clj'
+let g:netrw_dirhist_2='/home/baigang/workspace/storm/src/clj/backtype'
+let g:netrw_dirhist_3='/home/baigang/workspace/storm/src/clj/backtype/storm'
+let g:netrw_dirhist_4='/home/baigang/.vim_runtime/ftplugin/clojure'
+let g:netrw_dirhist_5='/home/baigang/.vim_runtime/autoload/vimclojure'
+let g:netrw_dirhist_6='/home/baigang/.vim_runtime/autoload'

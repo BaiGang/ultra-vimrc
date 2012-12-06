@@ -52,9 +52,13 @@
 "       Command-T plug-in provides an extremely fast, intuitive mechanism for opening filesa:
 "           info -> :help CommandT
 "           screencast and web-help -> http://amix.dk/blog/post/19501
+"     > VimClojure - http://www.vim.org/scripts/script.php?script_id=2501
+"       VimClojure contains a filetype, a syntax and an indent plugin
+"       for the Clojure (http://clojure.org) programming language. 
 "
 "
 "  Revisions:
+"     > upper: Added support for clojure.
 "     > 3.6: Added lots of stuff (colors, Command-T, Vim 7.3 persistent undo etc.)
 "     > 3.5: Paste mode is now shown in status line  if you are in paste mode
 "     > 3.4: Added mru.vim
@@ -593,6 +597,12 @@ augroup END
 """"""""""""""""""""""""""""""
 augroup filetypedetect
     au BufNewFile,BufRead *.scala set filetype=scala syntax=scala
+
+""""""""""""""""""""""""""""""
+" => CLOJURE section
+""""""""""""""""""""""""""""""
+augroup filetypedetect
+    au BufNewFile,BufRead *.clj set filetype=clojure syntax=clojure
 
 """"""""""""""""""""""""""""""
 " => MRU plugin
